@@ -13,6 +13,8 @@
 		3C42FB24224D2F04007B9C20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C42FB23224D2F04007B9C20 /* Assets.xcassets */; };
 		3C42FB27224D2F04007B9C20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C42FB25224D2F04007B9C20 /* LaunchScreen.storyboard */; };
 		3C42FB32224D2F04007B9C20 /* WonupltAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C42FB31224D2F04007B9C20 /* WonupltAssignmentTests.swift */; };
+		C6A1B7FD4B3E52E117E7FAA2 /* Pods_WonupltAssignmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D146CF67BA4DF1230254D1EC /* Pods_WonupltAssignmentTests.framework */; };
+		D0D480BBC3F7835C09BC19D6 /* Pods_WonupltAssignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3E37A88F03FF3FC8ADEECE /* Pods_WonupltAssignment.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		139A53B3CAC8601E98241B47 /* Pods-WonupltAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WonupltAssignment.release.xcconfig"; path = "Target Support Files/Pods-WonupltAssignment/Pods-WonupltAssignment.release.xcconfig"; sourceTree = "<group>"; };
 		3C42FB19224D2F02007B9C20 /* WonupltAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WonupltAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C42FB1C224D2F02007B9C20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C42FB1E224D2F03007B9C20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +39,11 @@
 		3C42FB2D224D2F04007B9C20 /* WonupltAssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WonupltAssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C42FB31224D2F04007B9C20 /* WonupltAssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WonupltAssignmentTests.swift; sourceTree = "<group>"; };
 		3C42FB33224D2F04007B9C20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B1B22D5911D75D1907F23C8 /* Pods-WonupltAssignmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WonupltAssignmentTests.debug.xcconfig"; path = "Target Support Files/Pods-WonupltAssignmentTests/Pods-WonupltAssignmentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		874E4819EE0663FE465338C0 /* Pods-WonupltAssignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WonupltAssignment.debug.xcconfig"; path = "Target Support Files/Pods-WonupltAssignment/Pods-WonupltAssignment.debug.xcconfig"; sourceTree = "<group>"; };
+		CB3E37A88F03FF3FC8ADEECE /* Pods_WonupltAssignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WonupltAssignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D146CF67BA4DF1230254D1EC /* Pods_WonupltAssignmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WonupltAssignmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAC9D1B6DAA3D41541A8E0FA /* Pods-WonupltAssignmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WonupltAssignmentTests.release.xcconfig"; path = "Target Support Files/Pods-WonupltAssignmentTests/Pods-WonupltAssignmentTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0D480BBC3F7835C09BC19D6 /* Pods_WonupltAssignment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6A1B7FD4B3E52E117E7FAA2 /* Pods_WonupltAssignmentTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +72,8 @@
 				3C42FB1B224D2F02007B9C20 /* WonupltAssignment */,
 				3C42FB30224D2F04007B9C20 /* WonupltAssignmentTests */,
 				3C42FB1A224D2F02007B9C20 /* Products */,
+				4A54FF7F242186B867088DEF /* Pods */,
+				552EFA51BA764AC85F99CC84 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +108,27 @@
 			path = WonupltAssignmentTests;
 			sourceTree = "<group>";
 		};
+		4A54FF7F242186B867088DEF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				874E4819EE0663FE465338C0 /* Pods-WonupltAssignment.debug.xcconfig */,
+				139A53B3CAC8601E98241B47 /* Pods-WonupltAssignment.release.xcconfig */,
+				7B1B22D5911D75D1907F23C8 /* Pods-WonupltAssignmentTests.debug.xcconfig */,
+				DAC9D1B6DAA3D41541A8E0FA /* Pods-WonupltAssignmentTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		552EFA51BA764AC85F99CC84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB3E37A88F03FF3FC8ADEECE /* Pods_WonupltAssignment.framework */,
+				D146CF67BA4DF1230254D1EC /* Pods_WonupltAssignmentTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +136,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C42FB36224D2F04007B9C20 /* Build configuration list for PBXNativeTarget "WonupltAssignment" */;
 			buildPhases = (
+				E5F8232A2EF1BC15AE92CD80 /* [CP] Check Pods Manifest.lock */,
 				3C42FB15224D2F02007B9C20 /* Sources */,
 				3C42FB16224D2F02007B9C20 /* Frameworks */,
 				3C42FB17224D2F02007B9C20 /* Resources */,
+				349E326DCF9AFCE4E0E58F02 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,6 +155,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C42FB39224D2F04007B9C20 /* Build configuration list for PBXNativeTarget "WonupltAssignmentTests" */;
 			buildPhases = (
+				9203024CA3902FF342428154 /* [CP] Check Pods Manifest.lock */,
 				3C42FB29224D2F04007B9C20 /* Sources */,
 				3C42FB2A224D2F04007B9C20 /* Frameworks */,
 				3C42FB2B224D2F04007B9C20 /* Resources */,
@@ -191,6 +227,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		349E326DCF9AFCE4E0E58F02 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WonupltAssignment/Pods-WonupltAssignment-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WonupltAssignment/Pods-WonupltAssignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9203024CA3902FF342428154 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WonupltAssignmentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5F8232A2EF1BC15AE92CD80 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WonupltAssignment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3C42FB15224D2F02007B9C20 /* Sources */ = {
@@ -358,6 +463,7 @@
 		};
 		3C42FB37224D2F04007B9C20 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 874E4819EE0663FE465338C0 /* Pods-WonupltAssignment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -375,6 +481,7 @@
 		};
 		3C42FB38224D2F04007B9C20 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 139A53B3CAC8601E98241B47 /* Pods-WonupltAssignment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -392,6 +499,7 @@
 		};
 		3C42FB3A224D2F04007B9C20 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B1B22D5911D75D1907F23C8 /* Pods-WonupltAssignmentTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -412,6 +520,7 @@
 		};
 		3C42FB3B224D2F04007B9C20 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAC9D1B6DAA3D41541A8E0FA /* Pods-WonupltAssignmentTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
