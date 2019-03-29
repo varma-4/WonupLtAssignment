@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C1F9134224DCD6B00345CBB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1F9133224DCD6B00345CBB /* DetailViewController.swift */; };
+		3C1F9136224DE3FC00345CBB /* DetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1F9135224DE3FC00345CBB /* DetailCollectionViewCell.swift */; };
 		3C42FB1D224D2F03007B9C20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C42FB1C224D2F02007B9C20 /* AppDelegate.swift */; };
 		3C42FB1F224D2F03007B9C20 /* PostCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C42FB1E224D2F03007B9C20 /* PostCardViewController.swift */; };
 		3C42FB22224D2F03007B9C20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C42FB20224D2F03007B9C20 /* Main.storyboard */; };
@@ -30,6 +32,8 @@
 
 /* Begin PBXFileReference section */
 		139A53B3CAC8601E98241B47 /* Pods-WonupltAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WonupltAssignment.release.xcconfig"; path = "Target Support Files/Pods-WonupltAssignment/Pods-WonupltAssignment.release.xcconfig"; sourceTree = "<group>"; };
+		3C1F9133224DCD6B00345CBB /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		3C1F9135224DE3FC00345CBB /* DetailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCollectionViewCell.swift; sourceTree = "<group>"; };
 		3C42FB19224D2F02007B9C20 /* WonupltAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WonupltAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C42FB1C224D2F02007B9C20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C42FB1E224D2F03007B9C20 /* PostCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCardViewController.swift; sourceTree = "<group>"; };
@@ -93,6 +97,7 @@
 			children = (
 				3C42FB1C224D2F02007B9C20 /* AppDelegate.swift */,
 				3CCB2883224D3CB4006FA3ED /* PostcardCollectionViewCell.swift */,
+				3C1F9135224DE3FC00345CBB /* DetailCollectionViewCell.swift */,
 				3CCB2882224D3C77006FA3ED /* ViewController */,
 				3C42FB20224D2F03007B9C20 /* Main.storyboard */,
 				3C42FB23224D2F04007B9C20 /* Assets.xcassets */,
@@ -115,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				3C42FB1E224D2F03007B9C20 /* PostCardViewController.swift */,
+				3C1F9133224DCD6B00345CBB /* DetailViewController.swift */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -315,6 +321,8 @@
 				3C42FB1F224D2F03007B9C20 /* PostCardViewController.swift in Sources */,
 				3CCB2884224D3CB4006FA3ED /* PostcardCollectionViewCell.swift in Sources */,
 				3C42FB1D224D2F03007B9C20 /* AppDelegate.swift in Sources */,
+				3C1F9136224DE3FC00345CBB /* DetailCollectionViewCell.swift in Sources */,
+				3C1F9134224DCD6B00345CBB /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

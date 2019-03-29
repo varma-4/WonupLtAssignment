@@ -9,6 +9,8 @@
 import UIKit
 
 class PostcardCollectionViewCell: UICollectionViewCell {
+
+    var delegate: PostCardViewNavigationDelegate?
     
     var containerView = UIView()
     var isFlipped = false
@@ -35,17 +37,16 @@ class PostcardCollectionViewCell: UICollectionViewCell {
         return button
     }()
     
-    @objc
-    func clickedOnTapButton() {
-        flipCardAnimation()
-    }
-    
-    var frontImageView: UIImageView = {
+    lazy var frontImageView: UIImageView = {
         let imageView = UIImageView()
         imageView.contentMode = .scaleAspectFill
         imageView.clipsToBounds = true
         imageView.layer.cornerRadius = 10.0
         imageView.image = #imageLiteral(resourceName: "PostCardImage")
+        imageView.isUserInteractionEnabled = true
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(clickedOnImageView))
+        tapGesture.numberOfTapsRequired = 1
+        imageView.addGestureRecognizer(tapGesture)
         return imageView
     }()
     
@@ -72,7 +73,6 @@ class PostcardCollectionViewCell: UICollectionViewCell {
     }
     
     private func setupViews() {
-        setRoundedRect()
         contentView.addSubview(containerView)
         containerView.snp.makeConstraints { make in
             make.edges.equalToSuperview()
@@ -106,10 +106,15 @@ class PostcardCollectionViewCell: UICollectionViewCell {
         frontImageView.alpha = 1.0
         isFlipped = false
     }
-    
-    private func setRoundedRect() {
-        layer.cornerRadius = 10.0
-        clipsToBounds = true
+
+    @objc
+    func clickedOnTapButton() {
+        flipCardAnimation()
+    }
+
+    @objc
+    func clickedOnImageView() {
+        delegate?.navigate()
     }
     
     private func setupFlippedView() {

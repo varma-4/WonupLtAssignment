@@ -9,6 +9,10 @@
 import UIKit
 import SnapKit
 
+protocol PostCardViewNavigationDelegate {
+    func navigate()
+}
+
 class PostCardViewController: UIViewController {
     
     override var preferredStatusBarStyle: UIStatusBarStyle {
@@ -84,6 +88,7 @@ extension PostCardViewController: UICollectionViewDataSource, UICollectionViewDe
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let collectionCell = collectionView.dequeueReusableCell(withReuseIdentifier: cellIdentifier, for: indexPath) as? PostcardCollectionViewCell
+        collectionCell?.delegate = self
         collectionCell?.backgroundColor = .clear
         collectionCell?.awakeFromNib()
         return collectionCell ?? UICollectionViewCell()
@@ -99,5 +104,14 @@ extension PostCardViewController: UICollectionViewDataSource, UICollectionViewDe
         return 30
     }
 
+}
+
+extension PostCardViewController: PostCardViewNavigationDelegate {
+
+    /// Navigate ViewControllet to Details ViewController
+    func navigate() {
+        let detailsViewController = DetailViewController()
+        self.navigationController?.pushViewController(detailsViewController, animated: true)
+    }
 }
 
