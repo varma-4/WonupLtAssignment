@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		3C42FB1D224D2F03007B9C20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C42FB1C224D2F02007B9C20 /* AppDelegate.swift */; };
-		3C42FB1F224D2F03007B9C20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C42FB1E224D2F03007B9C20 /* ViewController.swift */; };
+		3C42FB1F224D2F03007B9C20 /* PostCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C42FB1E224D2F03007B9C20 /* PostCardViewController.swift */; };
 		3C42FB22224D2F03007B9C20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C42FB20224D2F03007B9C20 /* Main.storyboard */; };
 		3C42FB24224D2F04007B9C20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C42FB23224D2F04007B9C20 /* Assets.xcassets */; };
 		3C42FB27224D2F04007B9C20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C42FB25224D2F04007B9C20 /* LaunchScreen.storyboard */; };
 		3C42FB32224D2F04007B9C20 /* WonupltAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C42FB31224D2F04007B9C20 /* WonupltAssignmentTests.swift */; };
+		3CCB2884224D3CB4006FA3ED /* PostcardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCB2883224D3CB4006FA3ED /* PostcardCollectionViewCell.swift */; };
 		C6A1B7FD4B3E52E117E7FAA2 /* Pods_WonupltAssignmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D146CF67BA4DF1230254D1EC /* Pods_WonupltAssignmentTests.framework */; };
 		D0D480BBC3F7835C09BC19D6 /* Pods_WonupltAssignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3E37A88F03FF3FC8ADEECE /* Pods_WonupltAssignment.framework */; };
 /* End PBXBuildFile section */
@@ -31,7 +32,7 @@
 		139A53B3CAC8601E98241B47 /* Pods-WonupltAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WonupltAssignment.release.xcconfig"; path = "Target Support Files/Pods-WonupltAssignment/Pods-WonupltAssignment.release.xcconfig"; sourceTree = "<group>"; };
 		3C42FB19224D2F02007B9C20 /* WonupltAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WonupltAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C42FB1C224D2F02007B9C20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3C42FB1E224D2F03007B9C20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3C42FB1E224D2F03007B9C20 /* PostCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCardViewController.swift; sourceTree = "<group>"; };
 		3C42FB21224D2F03007B9C20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3C42FB23224D2F04007B9C20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C42FB26224D2F04007B9C20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -39,6 +40,7 @@
 		3C42FB2D224D2F04007B9C20 /* WonupltAssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WonupltAssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C42FB31224D2F04007B9C20 /* WonupltAssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WonupltAssignmentTests.swift; sourceTree = "<group>"; };
 		3C42FB33224D2F04007B9C20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CCB2883224D3CB4006FA3ED /* PostcardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardCollectionViewCell.swift; sourceTree = "<group>"; };
 		7B1B22D5911D75D1907F23C8 /* Pods-WonupltAssignmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WonupltAssignmentTests.debug.xcconfig"; path = "Target Support Files/Pods-WonupltAssignmentTests/Pods-WonupltAssignmentTests.debug.xcconfig"; sourceTree = "<group>"; };
 		874E4819EE0663FE465338C0 /* Pods-WonupltAssignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WonupltAssignment.debug.xcconfig"; path = "Target Support Files/Pods-WonupltAssignment/Pods-WonupltAssignment.debug.xcconfig"; sourceTree = "<group>"; };
 		CB3E37A88F03FF3FC8ADEECE /* Pods_WonupltAssignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WonupltAssignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,7 +92,8 @@
 			isa = PBXGroup;
 			children = (
 				3C42FB1C224D2F02007B9C20 /* AppDelegate.swift */,
-				3C42FB1E224D2F03007B9C20 /* ViewController.swift */,
+				3CCB2883224D3CB4006FA3ED /* PostcardCollectionViewCell.swift */,
+				3CCB2882224D3C77006FA3ED /* ViewController */,
 				3C42FB20224D2F03007B9C20 /* Main.storyboard */,
 				3C42FB23224D2F04007B9C20 /* Assets.xcassets */,
 				3C42FB25224D2F04007B9C20 /* LaunchScreen.storyboard */,
@@ -108,6 +111,14 @@
 			path = WonupltAssignmentTests;
 			sourceTree = "<group>";
 		};
+		3CCB2882224D3C77006FA3ED /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3C42FB1E224D2F03007B9C20 /* PostCardViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
 		4A54FF7F242186B867088DEF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,7 +127,6 @@
 				7B1B22D5911D75D1907F23C8 /* Pods-WonupltAssignmentTests.debug.xcconfig */,
 				DAC9D1B6DAA3D41541A8E0FA /* Pods-WonupltAssignmentTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -302,7 +312,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C42FB1F224D2F03007B9C20 /* ViewController.swift in Sources */,
+				3C42FB1F224D2F03007B9C20 /* PostCardViewController.swift in Sources */,
+				3CCB2884224D3CB4006FA3ED /* PostcardCollectionViewCell.swift in Sources */,
 				3C42FB1D224D2F03007B9C20 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
