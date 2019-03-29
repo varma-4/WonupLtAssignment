@@ -44,10 +44,6 @@ class DetailCollectionViewCell: UICollectionViewCell {
         layer.cornerRadius = 10.0
         clipsToBounds = true
     }
-
-    func makeImageBlackAndWhite() {
-        detailImageView.image = nil
-    }
     
 
 }

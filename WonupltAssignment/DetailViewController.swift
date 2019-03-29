@@ -215,8 +215,6 @@ extension DetailViewController: UICollectionViewDelegate, UICollectionViewDataSo
     }
 
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellIdentifier, for: indexPath) as? DetailCollectionViewCell else { return }
-        cell.makeImageBlackAndWhite()
         if selectedIndexPath.0 == nil {
             selectedIndexPath = (indexPath, true)
         } else {

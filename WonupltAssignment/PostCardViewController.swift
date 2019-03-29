@@ -15,15 +15,11 @@ protocol PostCardViewNavigationDelegate {
 
 class PostCardViewController: UIViewController {
     
-    override var preferredStatusBarStyle: UIStatusBarStyle {
-        return .lightContent
-    }
-    
-    private let cellIdentifier = "PostCardCell"
+    private let cellIdentifier = postCardCellIdentifier
     
     var customBarButton: UIButton = {
         let button = UIButton()
-        button.setTitle("Welcome!", for: .normal)
+        button.setTitle(welcomeMessage, for: .normal)
         button.setTitleColor(.white, for: .normal)
         return button
     }()
@@ -46,18 +42,21 @@ class PostCardViewController: UIViewController {
         super.viewWillAppear(animated)
         setupNavBar()
     }
-    
-    // Setup Title for Navigation Bar
+
+    /// Sets style for the Navigation Bar
     private func setupNavBar() {
         edgesForExtendedLayout = []
+        // Allow large title for NavigationBar title
         self.navigationController?.navigationBar.prefersLargeTitles = true
+        // Set Appearance for the Navbar for this ViewController
         self.navigationController?.navigationBar.largeTitleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
-        let rightBarButton = UIBarButtonItem(customView: customBarButton)
-        navigationItem.rightBarButtonItems = [rightBarButton]
         navigationController?.navigationBar.barTintColor = .black
         navigationController?.navigationBar.tintColor = .white
         navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
         navigationController?.navigationBar.isTranslucent = false
+        // Set Navigation buttons
+        let rightBarButton = UIBarButtonItem(customView: customBarButton)
+        navigationItem.rightBarButtonItems = [rightBarButton]
     }
     
     private func setupCollectionView() {
